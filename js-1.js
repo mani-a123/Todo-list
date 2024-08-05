@@ -30,7 +30,7 @@ taskentered.addEventListener("click",function(e){
         saveentries()
     }
 
-},false);
+});
 
 function saveentries(){
     localStorage.setItem("data",taskentered.innerHTML);
